@@ -29,6 +29,7 @@ class PengajuanController extends Controller
         ]);
 
         $validated['masyarakat_id'] = Auth::id();
+        $validated['status'] = 'menunggu'; // Set default status
 
         Pengajuan::create($validated);
 
@@ -39,5 +40,13 @@ class PengajuanController extends Controller
     {
         $pengajuan = Pengajuan::where('masyarakat_id', Auth::id())->findOrFail($id);
         return view('masyarakat.pengajuan.show', compact('pengajuan'));
+    }
+
+    public function destroy($id)
+    {
+        $pengajuan = Pengajuan::where('masyarakat_id', Auth::id())->findOrFail($id);
+        $pengajuan->delete();
+
+        return redirect()->route('pengajuan.index')->with('success', 'Pengajuan berhasil dihapus!');
     }
 }

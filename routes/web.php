@@ -53,5 +53,4 @@ Route::middleware(['auth:admin'])->prefix('admin')->group(function () {
     Route::get('/pengajuan', [AdminController::class, 'pengajuan'])->name('admin.pengajuan');
     Route::put('/pengajuan/{id}', [AdminController::class, 'updatePengajuan'])->name('admin.pengajuan.update');
     Route::get('/masyarakat', [AdminController::class, 'dataMasyarakat'])->name('admin.masyarakat');
-    Route::put('/masyarakat/{id}/verifikasi', [AdminController::class, 'verifikasiMasyarakat'])->name('admin.masyarakat.verifikasi');
 });

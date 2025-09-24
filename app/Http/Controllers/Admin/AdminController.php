@@ -23,7 +23,8 @@ class AdminController extends Controller
 
     public function pengajuan()
     {
-        $pengajuan = Pengajuan::with('masyarakat')->get();
+        // Gunakan with() untuk eager loading relasi
+        $pengajuan = Pengajuan::with(['masyarakat', 'admin'])->get();
         return view('admin.pengajuan.index', compact('pengajuan'));
     }
 
@@ -50,7 +51,9 @@ class AdminController extends Controller
 
     public function verifikasiMasyarakat(Request $request, $id)
     {
-        // Implementasi verifikasi masyarakat jika diperlukan
+        $masyarakat = Masyarakat::findOrFail($id);
+        $masyarakat->update(['terverifikasi' => true]);
+
         return back()->with('success', 'Data masyarakat telah diverifikasi!');
     }
 }

@@ -9,6 +9,9 @@ class Pengajuan extends Model
 {
     use HasFactory;
 
+    // Tentukan nama tabel yang benar
+    protected $table = 'pengajuan';
+
     protected $fillable = [
         'masyarakat_id', 'jenis', 'judul', 'deskripsi', 
         'status', 'keterangan', 'admin_id'
@@ -16,7 +19,7 @@ class Pengajuan extends Model
 
     public function masyarakat()
     {
-        return $this->belongsTo(Masyarakat::class);
+        return $this->belongsTo(Masyarakat::class, 'masyarakat_id');
     }
 
     public function admin()
