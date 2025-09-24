@@ -68,7 +68,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 "# 7_IGedeKrisnaKesumawijaya_UpdateSistemPengaduan_V0" 
 
 ## Url
-Home: http://localhost:8000
+Home: http://localhost:8000 <br>
 Login Masyarakat: http://localhost:8000/masyarakat/login
 Daftar Masyarakat: http://localhost:8000/masyarakat/register
 Login Admin: http://localhost:8000/admin/login
