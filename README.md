@@ -77,7 +77,7 @@ Login Admin: http://localhost:8000/admin/login <br>
 Masyarakat: <br>
 hasda@gmail.com <br>
 123456 <br>
-Admin: 
+Admin: <br>
 admin@example.com <br>
 password123 <br>
 
