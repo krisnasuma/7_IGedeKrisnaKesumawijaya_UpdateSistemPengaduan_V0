@@ -73,7 +73,7 @@ Login Masyarakat: http://localhost:8000/masyarakat/login <br>
 Daftar Masyarakat: http://localhost:8000/masyarakat/register <br>
 Login Admin: http://localhost:8000/admin/login <br>
 
-## Sample User
+## Sample Users
 Masyarakat: <br>
 hasda@gmail.com <br>
 123456 <br>
@@ -81,5 +81,5 @@ Admin: <br>
 admin@example.com <br>
 password123 <br>
 
-## Lanjutan Sebelumnya Dari
+## Before
 https://github.com/krisnasuma/7_IGedeKrisnaKesumawijaya <br>
