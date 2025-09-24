@@ -81,3 +81,5 @@ Admin: <br>
 admin@example.com <br>
 password123 <br>
 
+## Lanjutan Sebelumnya Dari
+https://github.com/krisnasuma/7_IGedeKrisnaKesumawijaya <br>
