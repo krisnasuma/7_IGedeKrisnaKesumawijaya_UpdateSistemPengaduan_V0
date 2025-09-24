@@ -74,8 +74,10 @@ Daftar Masyarakat: http://localhost:8000/masyarakat/register <br>
 Login Admin: http://localhost:8000/admin/login <br>
 
 ## Sample User
-Masyarakat: hasda@gmail.com <br>
-          : 123456 <br>
-Admin: admin@example.com <br>
-     : password123 <br>
+Masyarakat: <br>
+hasda@gmail.com <br>
+123456 <br>
+Admin: 
+admin@example.com <br>
+password123 <br>
 
