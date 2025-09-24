@@ -69,13 +69,13 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 ## Url
 Home: http://localhost:8000 <br>
-Login Masyarakat: http://localhost:8000/masyarakat/login
-Daftar Masyarakat: http://localhost:8000/masyarakat/register
-Login Admin: http://localhost:8000/admin/login
+Login Masyarakat: http://localhost:8000/masyarakat/login <br>
+Daftar Masyarakat: http://localhost:8000/masyarakat/register <br>
+Login Admin: http://localhost:8000/admin/login <br>
 
 ## Sample User
-Masyarakat: hasda@gmail.com
-          : 123456
-Admin: admin@example.com
-     : password123
+Masyarakat: hasda@gmail.com <br>
+          : 123456 <br>
+Admin: admin@example.com <br>
+     : password123 <br>
 
